@@ -1,0 +1,16 @@
+/* 
+aca van los estilos globales a importar por los otros archivos css
+*/
+
+* {
+    background-color: initial;
+    color: gold;
+    font-size: 12px;
+    margin: 0px;
+    
+}
+
+
+body{
+    background-color: rgba(73, 72, 73);
+}
