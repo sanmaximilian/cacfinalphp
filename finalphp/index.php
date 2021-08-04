@@ -26,7 +26,7 @@
   </head>
   <body>
       <div class="entrada">
-    <h1>Trabajo practico final PHP + CSS3 + MYSQL + Bootstrap y HTML5</h1>
+    <h1>CODO A CODO 4.0 - Fullstack PHP -  Trabajo practico final PHP + CSS3 + MYSQL + Bootstrap y HTML5</h1>
 <h2>Red social para moteros con compra y venta de motos usadas tambien con una parte social para comentar y presentar sus vehiculos</h2>
 <h3>Los usuarios se pueden loguear para comentar y presentar sus motos</h3>
 <h3>Los usuarios pueden subir posteos como facebook o instagram, los otros usuarios pueden reaccionar</h3>

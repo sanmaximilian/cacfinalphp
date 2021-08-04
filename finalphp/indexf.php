@@ -27,25 +27,48 @@
     <title>Red social para moteros!</title>
     
   </head>
+
+
   <body>
-      
-    <h1>Fanaticos y entusiastas de las dos ruedas todo en un solo lugar</h1>
-<div class="menu">
-    <h1>Moto</h1>
-    <i class="fas fa-users"></i>
-    <ul>
-    <li>RSPM</li>
-    <!-- <li><a href="indexf.php">RSPM</a></li> -->
-      <li><a href="login.php">Ingrese</a></li>
-      
-    </ul>
+
+  <header>
+      <nav>
+        
+        <div>
+         
+          <div class="menu">
+          <h1>Comunidad de Moteros</h1>
+          <ul>
+            <li>RSPM</li>
+            <!-- <li><a href="indexf.php">RSPM</a></li> -->
+            <i class="fas fa-users"></i>
+            <!-- <li><a href="indexusr.php">Ingresa directo</a></li> -->
+            <li><a href="login.php">Ingresa</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Cabecera con el menu para ingresar</p> 
+      <h1>Comunidad para fanaticos y entusiastas de las dos ruedas todo en un solo lugar</h1>
+
+  </header>
+
+  
+  <main>
+    <div class="contenido">
+      <p>aca va todo el contenido al estilo muro</p>
+      <div><p>contenido dinamico</p></div>
+      <aside><p>en este aside van los eventos</p></aside>
+    </div>
+  </main>
     
 </div>
-<div>contenido dinamico</div>
 
-<div>contenido social de los compradores</div>
 
-<div>footer</div>
+
+
+<div><p>contenido social de los compradores</p></div>
+
+<div><p>footer</p></div>
 
 
 

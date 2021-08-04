@@ -1,7 +1,11 @@
 @import url(./globales.css);
 
 
-.menu{display: block;}
+.menu{
+    /* display: block; */
+    background-color: black;
+    display:inline-block"
+}
 
 
 .ingresobutton {
@@ -68,4 +72,15 @@ li{
     
     list-style:disc;
     font-size: 1.5rem;
+}
+
+
+.loginusr {
+    font-size: 2rem;
+    display: block;
+    width: 23rem;
+    /* height:15rem; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
 }

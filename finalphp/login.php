@@ -42,10 +42,12 @@
 
 <div>Login
     <div class="loginusr">
-        <input type="email" name="email" id="">
         
-        <input type="password" name="password" id="">
-        <button type="submit">Ingresar</button>
+        <form action="assets/loguear.php" method="POST">
+          <input type="email" name="email" id="">        
+          <input type="password" name="password" id="">
+          <button type="submit">Ingresar</button>
+        </form>
         <p>Resetear contraseña</p>
         <a href="register.php"><p>Registrar nuevo motero</p></a>
     </div>

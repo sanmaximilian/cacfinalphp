@@ -42,19 +42,15 @@
 
 <div>Registrese
     <div class="loginusr">
-        <p>Ingrese su email</p>
-        <input type="email" name="email" id="">
-        <!-- <p>Reingrese su correo</p>
-        <input type="email" name="email" id=""> -->
-        <p>Ingrese su Password</p>
-        
-        <input type="password" name="password" id="">
-        <p>Reingrese su Password</p>
-        <input type="password" name="password" id="">
-        <br>
-        <button type="submit">Ingresar</button>
-        
-        
+        <p>Ingrese el codigo que le llego por mail</p>
+        <div>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </div>
     </div>
 </div>
 

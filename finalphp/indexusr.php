@@ -1,4 +1,3 @@
-<html>
 <!doctype html>
 <html lang="es">
   <head>
@@ -28,38 +27,61 @@
     <title>Red social para moteros!</title>
     
   </head>
+
+
   <body>
-      
-    <h1>Fanaticos y entusiastas de las dos ruedas todo en un solo lugar</h1>
-<div class="menu">
-    <h1>Moto</h1>
-    <i class="fas fa-users"></i>
-    <ul>
-    <li><a href="indexf.php">RSPM</a></li>
-      <li>Ingrese</li>
-    </ul>
-</div>
+<!-- Inicio de sesion PHP -->
+<?php
+session_start();
 
-<div>Registrese
-    <div class="loginusr">
-        <p>Ingrese su email</p>
-        <input type="email" name="email" id="">
-        <!-- <p>Reingrese su correo</p>
-        <input type="email" name="email" id=""> -->
-        <p>Ingrese su Password</p>
+?>
+
+  <header>
+      <nav>
         
-        <input type="password" name="password" id="">
-        <p>Reingrese su Password</p>
-        <input type="password" name="password" id="">
-        <br>
-        <button type="submit">Ingresar</button>
-        
-        
+        <div>
+         
+          <div class="menu">
+          <h1>Comunidad de Moteros</h1>
+          <ul>
+             
+              <li><a href="indexf.php">RSPM - Pagina principal</a></li>
+              <i class="fas fa-users"></i>
+              <li>Bienvenido:
+                <?php 
+                   $usuario=$_SESSION['username'];
+                   
+                   if (!isset($usuario)){header("location: indexf.php");}else
+
+                  echo $usuario;
+                ?>
+              </li>
+              <li><a href="logout.php">Desconectarse</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Cabecera con el menu para ingresar</p> 
+      <h1>Comunidad para fanaticos y entusiastas de las dos ruedas todo en un solo lugar</h1>
+
+  </header>
+
+  
+  <main>
+    <div class="contenido">
+      <p>aca va todo el contenido al estilo muro</p>
+      <div><p>contenido dinamico</p></div>
+      <aside><p>en este aside van los eventos</p></aside>
     </div>
+  </main>
+    
 </div>
 
 
-<div>footer</div>
+
+
+<div><p>contenido social de los compradores</p></div>
+
+<div><p>footer</p></div>
 
 
 
@@ -86,4 +108,3 @@
 <?php
 echo ("Final hecho con bootstrarp 5.0 PHP y MYSQL (esto es un comentario en PHP - Eliminar de la version final");
 ?>
-</html>
